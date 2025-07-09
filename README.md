@@ -1,4 +1,4 @@
-# 🧠 Fake Faces Detector
+# 🧠 Fake Faces Detection
 
 A deep learning-based project to detect fake human faces (e.g. deepfakes) using Convolutional Neural Networks and a pre-trained ResNet-50 model. This project focuses on minimizing fraud risk by reliably classifying AI-generated human faces.
 
@@ -8,7 +8,7 @@ To develop a predictive model capable of identifying fake human faces generated 
 # 🗂️ Project Structure
 
 <pre> 📁 <b>Fake_Faces_Detector/</b> 
-  ├── <b>Fake_Faces_Detector.ipynb</b> # Main notebook 
+  ├── <b>Fake_Faces_Detection.ipynb</b> # Main notebook 
   ├── <b>Fake_Face_Inference.ipynb</b> # Inference notebook 
   ├── <b>README.md</b> # Project documentation 
   ├── <b>/data/</b> # Contains real and fake face images 
@@ -83,7 +83,7 @@ cd fake-faces-detector
 
 2. Open and run the notebooks:
 
-- Fake_Faces_Detector.ipynb for model training and evaluation
+- Fake_Faces_Detection.ipynb for model training and evaluation
 - Fake_Face_Inference.ipynb for inference on new images
 
 # 📌 Key Takeaways
