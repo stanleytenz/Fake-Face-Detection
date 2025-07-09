@@ -90,8 +90,10 @@ cd fake-faces-detector
 - High recall in detecting fake faces is essential to prevent fraud.
 - The model is ready for deployment in applications requiring deepfake detection.
 
-👤 Author
+# 👤 Author
 Stanley Armando Austen
+
 Data Enthusiast | Deep Learning Explorer
 
-If you need the dataset, feel free to ask me anytime! 😊
+
+**If you need the dataset, feel free to ask me anytime! 😊**
