@@ -68,15 +68,16 @@ Despite lower performance on real faces, **Model B successfully detects nearly a
 
 You can install dependencies using:
 
-%%bash
+%%
 pip install -r requirements.txt
 
 # 🚀 How to Run
 
 1. Clone this repo:
 
-!echo git clone https://github.com/yourusername/fake-faces-detector.git
-cd fake-faces-detector
+<pre>
+  pip install -r requirements.txt
+</pre>
 
 2. Open and run the notebooks:
 
