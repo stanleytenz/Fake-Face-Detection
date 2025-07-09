@@ -7,6 +7,7 @@ To develop a predictive model capable of identifying fake human faces generated 
 
 # 🗂️ Project Structure
 
+!echo "
 📁 Fake_Faces_Detector/
 ├── Fake_Faces_Detector.ipynb       # Main notebook
 ├── Fake_Face_Inference.ipynb       # Inference notebook
@@ -15,6 +16,7 @@ To develop a predictive model capable of identifying fake human faces generated 
 │   ├── real/
 │   └── fake/
 └── /models/                        # Saved models
+"
 
 
 # ⚙️ Models Used
