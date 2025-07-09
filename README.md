@@ -9,13 +9,12 @@ To develop a predictive model capable of identifying fake human faces generated 
 
 <pre> 📁 <b>Fake_Faces_Detector/</b> 
   ├── <b>Fake_Faces_Detection.ipynb</b> # Main notebook 
-  ├── <b>Fake_Face_Inference.ipynb</b> # Inference notebook 
-  ├── <b>README.md</b> # Project documentation 
-  ├── <b>/data/</b> # Contains real and fake face images 
+  ├── <b>Fake_Face_Inference.ipynb</b> # Inference notebook  
+  ├── <b>/Inferences/</b> # Contains inference photos (real and fake face images )
   │ ├── <b>real/</b> 
   │ └── <b>fake/</b> 
-  └── <b>/photo/</b> # inference photos</pre>
-
+  ├── <b>README.md</b> # Project documentation
+</pre>
 
 
 # ⚙️ Models Used
@@ -95,3 +94,4 @@ cd fake-faces-detector
 Stanley Armando Austen
 Data Enthusiast | Deep Learning Explorer
 
+If you need the dataset, feel free to ask me anytime! 😊
