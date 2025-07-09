@@ -13,7 +13,7 @@ To develop a predictive model capable of identifying fake human faces generated 
   ├── <b>/Inferences/</b> # Contains inference photos (real and fake face images )
   │ ├── <b>real/</b> 
   │ └── <b>fake/</b> 
-  ├── <b>README.md</b> # Project documentation
+  └── <b>README.md</b> # Project documentation
 </pre>
 
 
