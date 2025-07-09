@@ -14,7 +14,7 @@ To develop a predictive model capable of identifying fake human faces generated 
   ├── <b>/data/</b> # Contains real and fake face images 
   │ ├── <b>real/</b> 
   │ └── <b>fake/</b> 
-  └── <b>/models/</b> # Saved models </pre>
+  └── <b>/photo/</b> # inference photos</pre>
 
 
 
