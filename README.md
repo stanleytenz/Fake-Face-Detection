@@ -77,7 +77,7 @@ You can install dependencies using:
 1. Clone this repo:
 
 <pre>
-  git clone https://github.com/yourusername/fake-faces-detector.git
+git clone https://github.com/yourusername/fake-faces-detector.git
 cd fake-faces-detector
 </pre>
 
