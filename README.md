@@ -28,7 +28,7 @@ Built using Keras Sequential API
 
 Achieved recall of 0.71 for the 'fake' class
 
-🔹 Model B: Pre-trained ResNet-50
+🔹 **Model B: Pre-trained ResNet-50**
 Uses ResNet-50 with ImageNet weights
 
 Fine-tuned for binary classification (real vs. fake)
@@ -37,61 +37,54 @@ Achieved recall of 0.99 for the 'fake' class
 
 Selected for final inference phase
 
-📊 Evaluation Metrics
-Model	Recall (Fake Class)
-Model A (CNN)	0.71
-Model B (ResNet-50)	0.99 ✅
+# 📊 Evaluation Metrics
+
+| Model               | Recall (Fake Class) |
+| ------------------- | ------------------- |
+| Model A (CNN)       | 0.71                |
+| Model B (ResNet-50) | 0.99 ✅              |
 
 A high recall score is prioritized to ensure fake faces are not misclassified as real.
 
-🧪 Inference Results
+# 🧪 Inference Results
 A final test was performed on 10 unseen images (5 real + 5 fake):
 
-Class	Correct Predictions
-Fake	5 / 5 ✅
-Real	1 / 5 ⚠️
+| Class | Correct Predictions |
+| ----- | ------------------- |
+| Fake  | 5 / 5 ✅             |
+| Real  | 1 / 5 ⚠️            |
 
-Despite lower performance on real faces, Model B successfully detects nearly all fake faces, making it highly suitable for fraud prevention use cases.
+Despite lower performance on real faces, **Model B successfully detects nearly all fake faces**, making it highly suitable for fraud prevention use cases.
 
-🛠️ Requirements
-Python 3.7+
+# 🛠️ Requirements
 
-TensorFlow / Keras
-
-NumPy
-
-Matplotlib
-
-scikit-learn
-
-PIL (for image loading)
+- Python 3.7+
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- scikit-learn
+- PIL (for image loading)
 
 You can install dependencies using:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-🚀 How to Run
-Clone this repo:
+!pip install -r requirements.txt
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/fake-faces-detector.git
+# 🚀 How to Run
+
+1. Clone this repo:
+
+! git clone https://github.com/yourusername/fake-faces-detector.git
 cd fake-faces-detector
-Open and run the notebooks:
 
-Fake_Faces_Detector.ipynb for model training and evaluation
+2. Open and run the notebooks:
 
-Fake_Face_Inference.ipynb for inference on new images
+-Fake_Faces_Detector.ipynb for model training and evaluation
+- Fake_Face_Inference.ipynb for inference on new images
 
-📌 Key Takeaways
-ResNet-50 outperforms custom CNN in both accuracy and recall.
-
-High recall in detecting fake faces is essential to prevent fraud.
-
-The model is ready for deployment in applications requiring deepfake detection.
+# 📌 Key Takeaways
+- ResNet-50 outperforms custom CNN in both accuracy and recall.
+- High recall in detecting fake faces is essential to prevent fraud.
+- The model is ready for deployment in applications requiring deepfake detection.
 
 👤 Author
 Stanley Armando Austen
