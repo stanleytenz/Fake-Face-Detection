@@ -7,7 +7,6 @@ To develop a predictive model capable of identifying fake human faces generated 
 
 # 🗂️ Project Structure
 
-!echo "
 📁 Fake_Faces_Detector/
 ├── Fake_Faces_Detector.ipynb       # Main notebook
 ├── Fake_Face_Inference.ipynb       # Inference notebook
@@ -16,7 +15,7 @@ To develop a predictive model capable of identifying fake human faces generated 
 │   ├── real/
 │   └── fake/
 └── /models/                        # Saved models
-"
+
 
 
 # ⚙️ Models Used
@@ -75,7 +74,7 @@ You can install dependencies using:
 
 1. Clone this repo:
 
-! git clone https://github.com/yourusername/fake-faces-detector.git
+!echo "git clone https://github.com/yourusername/fake-faces-detector.git"
 cd fake-faces-detector
 
 2. Open and run the notebooks:
